@@ -1,0 +1,8 @@
+# Your_name 
+First-Doing repository
+# include <iostream>
+using namespace std;
+int main()
+{
+  cout << "Nhap ten cua Ban:"<< "NGUYỄN KIM PHÁT";
+  cout << 
