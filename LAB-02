@@ -1,8 +1,24 @@
 # Your_name 
 First-Doing repository
-# include <iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-  cout << "Nhap ten cua Ban:"<< "NGUYỄN KIM PHÁT";
-  cout << 
+	cout <<"Nhap ten ban:"<<"NGUYEN KIM PHAT"<<endl;
+	cout << "**   **  *******  **   **  ***  ***  *******  **   **"<<endl;
+	cout << "***  **  **       **   **   **  **   **       ***  **"<<endl;
+	cout << "** ****  **  ***  **   **     **     *****    ** ****"<<endl;
+	cout << "**  ***  **   **  **   **     **     **       **  ***"<<endl;
+	cout << "**   **  *******  *******     **     *******  **   **"<<endl<<endl;
+	cout << "**   **  *******  **    **"<<endl;
+	cout << "**  **     ***    **    **"<<endl;
+	cout << "*****      ***    ***  ***"<<endl;
+	cout << "**  **     ***    ** ** **"<<endl;
+	cout << "**   **  *******  **    **"<<endl<<endl;
+	cout << "*******  **   **     **     ********"<<endl;
+	cout << "*    **  **   **   **  **      **"<<endl;
+	cout << "******   *******  ********     **"<<endl;
+	cout << "**       **   **  **    **     **"<<endl;
+	cout << "**       **   **  **    **     **"<<endl<<endl;
+	return 0;
+}
