@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+typedef struct 
+{
+	 int AreaCode;
+	 int Exchange;
+	 int Number;
+}PhoneNumber;
+
+int main()
+{
+	PhoneNumber PhoneA ={212,767,8900};
+	cout << "My Phone Number is" << "(" << PhoneA.AreaCode <<")" << PhoneA.Exchange <<"-"<< PhoneA.Number<< endl;
+	PhoneNumber PhoneB;
+	cout << "Nhap so phone cua ban:";
+	cin >> PhoneB.AreaCode ;
+	cin >> PhoneB.Exchange ;
+	cin >> PhoneB.Number ;
+	cout << "Your Phone Number is" << "(" << PhoneB.AreaCode <<")" << PhoneB.Exchange <<"-"<< PhoneB.Number;
+	return 0;
+}
