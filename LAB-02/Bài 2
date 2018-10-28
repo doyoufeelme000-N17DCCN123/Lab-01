@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+void Inform(long &Amo,float &Rate,int &Year)
+{
+	
+	cout << "Enter initial amount:";
+	cin >> Amo;
+	
+	cout << "Enter interest rate (percent per year):";
+	cin >> Rate;
+	
+	cout << "Enter number of years:";
+	cin >> Year;	
+}
+void Total(long &Amo,float &Rate,int &Year)
+{
+	double T=Amo;
+	for(int i=1;i<=Year;i++)
+		T=T+(T*(Rate/100));
+		cout <<"At the end of"<<" "<< Year <<" "<< "years, you will have" <<" "<< T <<" "<<"dollars";	
+}
+int main()
+{
+	long Amo;
+	float Rate;
+	int Year;	
+	Inform(Amo,Rate,Year);
+	Total(Amo,Rate,Year);
+	return 0;
+}
